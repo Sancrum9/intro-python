@@ -46,7 +46,7 @@
 
 name= ("Sa'id")
 age= 13
-print(f"Hi my name is {name} I am {13} years old i feel as if variable are very useful and mostly becuase of the way the work im so fastinated by the process of coding that everything I do that makes me so fastinated variables are like hidden messages that i dont have to text")
+#print(f"Hi my name is {name} I am {13} years old i feel as if variable are very useful and mostly becuase of the way the work im so fastinated by the process of coding that everything I do that makes me so fastinated variables are like hidden messages that i dont have to text")
  gpa= 1.500
  school= ("boyslatin")
  print(f"Hi my name is {name} im {age} my gpa is {gpa} I go to {school} in this sentence I used float and and intigers in this sentence and a balean")
