@@ -1,0 +1,7 @@
+integer=34
+float=3.34
+input=(f"the difference between a float and a integer is a integer deals with whole numbers like {integer} and floats deals with fraction or decimals like this {float}")
+
+print(input)
+
+I have a resturant and i made a website for it a way to use a boolean is to ask for people card pin so they can purchace stuff and if it works it will say true and you will be able to get food
