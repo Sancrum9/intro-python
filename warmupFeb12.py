@@ -1,0 +1,6 @@
+print(str(20))
+print(f"the computer will recongnize it a string")
+print(20.901)
+print(f"the computer will recongnize it a float because it hase a decimals")
+print(f"type erros mean there's some type of miss match")
+print(f"syntext error is when your not speaking the computers language")
