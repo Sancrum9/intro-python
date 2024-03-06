@@ -21,31 +21,31 @@
 # The architects have given you the following 
 # lists of floors for their building:
 
-M = 'lobby'
-B = 'basement'
-R = 'rooftop'
-_1 = 'gym'
-_2 = 'restuarant'
-_3 = 'workspace'
-_4 = 'living quarters'
+Lobby = 'L'
+Basement = 'B'
+Rooftop = 'R'
+Gym = '1'
+Restuarant = '2'
+Work_space = '3'
+Living_quarter= '4'
 
 def ElevatorSystem():
     floors = input('what floor would u like to go too ')
-    if floors==M:
+    if floors ==Lobby:
         print('you are going to the lobby')
 
-    elif floors ==B:
+    elif floors ==Basement:
         print("your going to the basement")
-    elif floors ==R:
+    elif floors ==Rooftop:
         print("your going to the rooftop")
-    elif floors ==_1:
-        print("your going to the gym")
-    elif floors ==_2:
-        print("your going to the resturant")
-    elif floors ==_3:
-        print("your going to the workspace")
-    elif floors ==_4:
-        print("your going to the living quaters")
+    elif floors ==Gym:
+        print("your going to the 1st floor")
+    elif floors ==Restuarant:
+        print("your going to the 2nd floor")
+    elif floors ==Work_space:
+        print("your going to the 3rd floor")
+    elif floors ==Living_quarter:
+        print("your going to the 4th floor")
     else:
         print('your floor does not exist')
 ElevatorSystem()
@@ -71,3 +71,14 @@ ElevatorSystem()
 
 # if the user enters information incorrectly, give them an error message
 # and tell them that they entered their information incorrectly. 
+#def check_roller_coaster_eligibility(age,height):
+ #   if age>= 14 and height>= 5.2:
+ #       print("You can get on roller coaster #1. ")
+ #   elif age>= 14 and height< 5.2:
+ #       print("you can get on roller coaster #2. ")
+  #  elif age< 14 and height< 5.2:
+ #       print("you can get on roller coaster #3. ")
+ #   else:
+ #       print("error; please try again. the information you have provided is not availabe for these coasters")
+
+#check_roller_coaster_eligibility(5.9,10)

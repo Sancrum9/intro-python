@@ -4,7 +4,6 @@ grade=input("what grade are you in: ")
 age=input("what is your age: ")
 location=input("where do you live: ")
 phonenumber=input("what is your phone number: ")
-
 print(name)
 print(age)
 print(location)
