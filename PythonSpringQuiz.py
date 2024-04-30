@@ -20,16 +20,28 @@
 # 2. Name and describe three python operator families. Plese write your response using complete
 # sentences.
 # Arithmetic Operators deals with math like addition, multiplication, subtraction, and division
-# Comparison operators deals with 
+# Comparison operators deals with comparing things like less than(<) , greater than(>), equal(==), not equal(!=), less than or equal too (<=), greater than or equal too (>=)
+# Logic Operators deals with Logic so like and, or, and even not
 
 # 3. Create a function that will accept 3 arguements. 
 # This function should multiply the first 2 arguments and then
 # subtract the last argument from the sum of the first 2.
- 
+
+#def ThreeArgumentivefunc(number):
+#    result = number *2
+#    print(number-4)
+#ThreeArgumentivefunc(-6)
+
 # 4. Research the range() function. Then create a function that takes 2 arguements. 
 # Your function should take the range of the first argument and multiply those numbers by the second 
 # argument.
- 
+
+#def rangetrial():
+#    x = range(10,50)
+#    for n in x :
+#        print(n*2)
+#rangetrial()
+    
 # 5. Create a function that will ask the user guess the correct number.
 # Your function should take a user input which will be their guess. Your function should 
 # generate a random number between 1 and 5. If the user guesses the number correctly, the program
@@ -37,6 +49,20 @@
 # will be informed their guess is incorrect and to guess again. The user should only be able to guess
 # incorrectly 3 times. If they get the 3rd attempt wrong, the program should inform they user they have lost
 # the game.
+import random
+
+def guessingGame(number):
+    print(input(random.randint(1,5)))
+    userGuess=[]
+
+    if userGuess != input:
+        userinput = int(input(f"please enter the correct number: "))
+        userGuess.append(userinput)
+        print(f"you are correct")
+    else:
+        print (f"you are incorrect")
+guessingGame(4)
+
 
 # 6. Create a function that will act as a saving calculator. Your function should take several inputs from
 # the user. Your program should ask the user what they are saving up for, how much does it cost, and how much 
@@ -50,3 +76,15 @@
 # If I deposit $40 dollars the next week it should tell me
 # it will take 10 weeks to reach my goal based on the $40 dollar deposit, I have $60 saved, and that I need 
 # $440 more dollars to reach my goal.
+
+#Main idea
+# 1. function must take in server inputs from the user
+# 2. Make the program ask you what you are saving for and how much does it cost
+# 3. Make is so that it will ask you how much you will have saved that week until your goal is met
+# 4: Make it so that it tells you how much more money you need until youv'e reached your goal
+# 5. If I deposite a specific amount of money in make it so that it will tell me how many more weeks until I will have it if I keep depositing that same amout of money
+
+# Well most of the programming would be derived from the way cashapp is built based of the saving function kind of
+# it would be a for loop because its only for a set amount of time I
+# dont need it to keep telling me how much more money I need if I already reached my goal.
+# I would be using both Assignment and arithmatic operators
